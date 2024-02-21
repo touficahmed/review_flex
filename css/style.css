@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout {
+    max-width: 1200px;
+    width: 100%;
+    margin: 50px auto 0;
+
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 14px;
+
+}
+
+.embraceddiv {
+    padding: 0 300px 0;
+}
+
+.embraceddiv h2 {
+    font-size: 32px;
+    padding: 10px 0 10px;
+}
+
+.heading p {
+    font-size: 13.5px;
+    color: rgba(127, 127, 127, 0.836);
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.flex .column {
+    width: 33.33%;
+    padding: 10px;
+}
+
+.review {
+    padding: 15px;
+    box-shadow: 0 0px 2px 0px rgba(15, 15, 15, 0.10);
+    border-radius: 10px;
+    min-height: 310px;
+    border: 1px solid rgb(244, 244, 244);
+}
+
+.myself {
+    max-width: 60px;
+    width: 100%;
+    max-height: 60px;
+    height: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.review h2 {
+    font-size: 15px;
+}
+
+.para1 {
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.para2 {
+    font-size: 12px;
+    color: rgb(156, 155, 155);
+    font-weight: 500;
+
+}
+
+.star {
+    max-width: 100px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.container {
+    text-align: center;
+
+    border-radius: 8px;
+    
+}
+
+.imagebox .img01 {
+    width: 120px;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(251, 251, 251);
+    margin: 50px 10px 50px;
+    border-radius: 8px;
+
+}
+
+.img01 {
+    padding: 20px;
+    max-height: 80px;
+    width: auto;
+}
